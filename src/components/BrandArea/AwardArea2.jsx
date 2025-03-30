@@ -41,7 +41,7 @@ const BrandArea = ({ className }) => {
             Award Area
                     </h2>
                     <p>
-                    Your satisfaction is 100% guaranteed at Anu Building Services. We are committed to delivering exceptional service every time and ensuring you are completely satisfied with the results. Hiring our janitorial services is a decision you can feel confident about.
+                    Your satisfaction is 100% guaranteed at KPM. We are committed to delivering exceptional service every time and ensuring you are completely satisfied with the results. Hiring our janitorial services is a decision you can feel confident about.
                     <br/>
                     We also use eco-friendly cleaning products to provide a safe and healthy environment for your space. Our employees are carefully screened through a rigorous recruitment process and receive hands-on training to ensure top-quality service.
                     </p>

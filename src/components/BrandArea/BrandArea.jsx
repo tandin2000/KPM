@@ -16,7 +16,7 @@ const BrandArea = ({ className }) => {
         Satisfaction Guaranteed!
                 </h2>
                 <p>
-                At Anu Building Services, we genuinely care about your experience and your satisfaction means everything to us. That’s why we back our work with a 100% satisfaction guarantee. We’re here to make sure your space feels clean, comfortable, and cared for—every time.
+                At KPM, we genuinely care about your experience and your satisfaction means everything to us. That’s why we back our work with a 100% satisfaction guarantee. We’re here to make sure your space feels clean, comfortable, and cared for—every time.
                 </p>
                 </center>
           </div>
