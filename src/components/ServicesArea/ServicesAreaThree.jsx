@@ -1,142 +1,128 @@
-import React, { useEffect, useRef, useState } from 'react';
-import { bgImgFromData } from "../../lib/helpers";
-import { jarallax } from "jarallax";
-import { BestServiceItemsArray } from "../BestServiceItem/BestServiceItemsArray";
-import ServicesAreaThreeItem from "./ServicesAreaThreeItem";
-import SlickSlider from "../SlickSlider/SlickSlider";
+import React from "react";
+import { Link } from "react-router-dom";
 
 const ServicesAreaThree = () => {
-  const [maxHeight, setMaxHeight] = useState(0);
-  const sliderContainerRef = useRef(null);
-
-  useEffect(() => {
-    bgImgFromData();
-  }, []);
-
-  // jarallax
-  useEffect(() => {
-    jarallax(document.querySelectorAll(".jarallax"), {
-      speed: 0.2,
-    });
-  }, []);
-
-  const slick_settings = {
-    dots: true,
-    infinite: true,
-    speed: 2000,
-    autoplay: true,
-    arrows: false,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 1400,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          infinite: true,
-        },
-      },
-      {
-        breakpoint: 1200,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          infinite: true,
-        },
-      },
-      {
-        breakpoint: 992,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 767,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          arrows: false,
-        },
-      },
-      {
-        breakpoint: 575,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          arrows: false,
-        },
-      },
-    ],
-  };
-
-  useEffect(() => {
-    const calculateHeights = () => {
-      if (sliderContainerRef.current) {
-        const slides = sliderContainerRef.current.querySelectorAll('.minslide');
-        let max = 0;
-        slides.forEach((slide) => {
-          const height = slide.clientHeight;
-          if (height > max) {
-            max = height;
-          }
-        });
-        setMaxHeight(max);
-      }
-    };
-
-    // Use ResizeObserver to listen for changes in slide size and recalculate heights
-    const resizeObserver = new ResizeObserver(() => calculateHeights());
-    const container = sliderContainerRef.current;
-
-    if (container) {
-      container.querySelectorAll('.minslide').forEach((slide) => {
-        resizeObserver.observe(slide);
-      });
+  const services = [
+    {
+      icon: "fa-fire",
+      title: "Furnace Repair & Installation",
+      description: "Professional furnace repair, maintenance, and installation services. Expert technicians for all furnace types and brands.",
+      link: "/furnace-repair",
+      color: "#2B6CB0"
+    },
+    {
+      icon: "fa-tint",
+      title: "Swift Boiler Repair & Installation",
+      description: "Fast and reliable boiler repair and installation services. Including emergency repairs and annual maintenance.",
+      link: "/boiler-repair",
+      color: "#4299E1"
+    },
+    // {
+    //   icon: "fa-pipe",
+    //   title: "Repiping Services",
+    //   description: "Complete repiping solutions for homes and businesses. Using high-quality materials and professional installation.",
+    //   link: "/repiping",
+    //   color: "#ED8936"
+    // },
+    {
+      icon: "fa-hot-tub",
+      title: "Hot Water Heater Services",
+      description: "Water heater repair, replacement, and maintenance. Expert service for all types of water heaters.",
+      link: "/hot-water",
+      color: "#48BB78"
+    },
+    {
+      icon: "fa-water",
+      title: "Water Main Services",
+      description: "Water main repair and replacement services. Professional excavation and installation techniques.",
+      link: "/water-main",
+      color: "#9F7AEA"
+    },
+    {
+      icon: "fa-shield-alt",
+      title: "Fast & Secure Installation",
+      description: "Quick and reliable installation services with guaranteed workmanship. Licensed and insured professionals.",
+      link: "/fast",
+      color: "#F56565"
+    },
+    {
+      icon: "fa-tint-slash",
+      title: "Drain Tile System Services",
+      description: "Drain tile system cleaning, installation, and repair. Preventing water damage and foundation issues.",
+      link: "/drain-tile",
+      color: "#38B2AC"
+    },
+    // {
+    //   icon: "fa-sewer",
+    //   title: "Sewer & Drainage Services",
+    //   description: "Comprehensive sewer and drainage maintenance. Regular cleaning and preventive care.",
+    //   link: "/sewer",
+    //   color: "#805AD5"
+    // },
+    {
+      icon: "fa-stream",
+      title: "Drainage System Services",
+      description: "Complete drainage system repair and installation. Solving water flow and drainage issues.",
+      link: "/drainage-repair",
+      color: "#E53E3E"
+    },
+    {
+      icon: "fa-sink",
+      title: "Plumbing Fixture Installation",
+      description: "Professional installation of all plumbing fixtures. Including sinks, toilets, faucets, and more.",
+      link: "/all-types",
+      color: "#2F855A"
+    },
+    {
+      icon: "fa-video",
+      title: "Camera Inspection",
+      description: "Advanced camera inspection services for accurate diagnosis of plumbing issues. Quick and non-invasive.",
+      link: "/camera",
+      color: "#4A5568"
     }
-
-    // Initial calculation after rendering
-    calculateHeights();
-
-    // Cleanup observer on unmount
-    return () => {
-      if (container) {
-        container.querySelectorAll('.minslide').forEach((slide) => {
-          resizeObserver.unobserve(slide);
-        });
-      }
-    };
-  }, [BestServiceItemsArray]);
+  ];
 
   return (
-    <section className="services-area-three pt-125">
-      <div
-        className="services-bg jarallax"
-        data-background="/img/bg/services_bg.jpg"
-      ></div>
-      <div className="container custom-container">
-        <div className="row justify-content-center">
-          <div className="col-xl-6 col-lg-7">
-            <div className="section-title-two white-title text-center mb-65 tg-heading-subheading animation-style2">
-              <span className="sub-title">What We’re Offering</span>
-              <h2 className="title tg-element-title">
-                Delivering Top-Quality Services  <br />
-                You Can Trust
-              </h2>
-            </div>
-          </div>
+    <section className="services-area">
+      <div className="container">
+        <div className="section-title text-center">
+          <span className="sub-title">
+            <i className="fas fa-star"></i> Our Services
+          </span>
+          <h2 className="title">
+            Professional Plumbing & Heating Solutions
+          </h2>
+          <p className="description">
+            From emergency repairs to complete installations, we provide comprehensive plumbing and heating services with guaranteed quality and customer satisfaction
+          </p>
         </div>
 
-        <div className="services-item-wrap-two">
-          <div className="row services-active" ref={sliderContainerRef}>
-            <SlickSlider settings={slick_settings}>
-              {BestServiceItemsArray.map((x, index) => (
-                <div key={index} className="col-lg-3 minslide" style={{ height: maxHeight }}>
-                  <ServicesAreaThreeItem item={x} />
-                </div>
-              ))}
-            </SlickSlider>
+        <div className="services-grid">
+          {services.map((service, index) => (
+            <div key={index} className="service-card">
+              <div className="service-icon" style={{ backgroundColor: service.color }}>
+                <i className={`fas ${service.icon}`}></i>
+              </div>
+              <div className="service-content">
+                <h3>{service.title}</h3>
+                <p>{service.description}</p>
+                <Link to={service.link} className="service-link">
+                  Learn More
+                  <i className="fas fa-arrow-right"></i>
+                </Link>
+              </div>
+              <div className="service-hover" style={{ backgroundColor: service.color }}></div>
+            </div>
+          ))}
+        </div>
+
+        <div className="services-cta">
+          <div className="cta-content">
+            <h3>Need Professional Plumbing Services?</h3>
+            <p>Contact us today for expert assistance and get a free quote</p>
+            <Link to="/estimate" className="btn btn-primary">
+              Get Free Quote
+            </Link>
           </div>
         </div>
       </div>

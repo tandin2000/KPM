@@ -22,13 +22,13 @@ const BrandArea = ({ className }) => {
 <img src="/img/Certificate-verification.png" className="satimg pb-20" />
 </div>
 <div className="col-md-3 center">
-<img src="/img/ts-bc.jpg" className="satimg pb-20" />
+<img src="/img/ts-bc.png" className="satimg pb-20" />
 </div>
 <div className="col-md-3 center">
-<img src="/img/yelp.jpg" className="satimg pb-20" />
+<img src="/img/yelp.png" className="satimg pb-20" />
 </div>
 <div className="col-md-3 center">
-<img src="/img/google.jpg" className="satimg pb-20" />
+<img src="/img/google.png" className="satimg pb-20" />
 </div>
 
         {/* <div className="col-md-4 alc">

@@ -14,6 +14,7 @@ import "./styles/default.css";
 import "./styles/aos.css";
 import "./styles/global.css";
 import "./styles/responsive.css";
+import "./styles/custom.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
