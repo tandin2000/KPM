@@ -68,7 +68,7 @@ const AboutUs = () => {
               </div>
 
               <p>
-              K P M Plumbing is taking care of plumbing, heating related problems with utmost caution at cost-effective prices.
+              KPM Plumbing is taking care of plumbing, heating related problems with utmost caution at cost-effective prices.
 
 The team has industry experience to undertake maintenance, repair and installation projects for plumbing, hot water tank replacement, tankless water heater replacement, water main replacement, clear sewer blockage, trenchless repiping, furnace, boilers, heat pumps, green heating solutions, air filtration, drain tile system cleaning, drainage inspection, high-pressure hydro jet cleaning units.
 <br/><br/>

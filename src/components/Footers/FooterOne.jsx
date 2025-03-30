@@ -39,18 +39,11 @@ const FooterOne = () => {
                     <p>
                     Available 24/7 </p>
 
-
                     <p>
-                    Main Contact / After hours: <br/> <a href="tel:7787077946"> 
-                    7787077946
+                    <a href="tel:7787077946"> 
+                    +1 (778) 707-7946
                       </a>
                     </p>
-
-                    {/* <p>
-                      Office Number: <br/><a href="tel:+12892740648"> 
-                      +1 (289) 274-0648
-                      </a>
-                    </p> */}
                     
                     </div>
                   </div>
@@ -75,7 +68,7 @@ const FooterOne = () => {
                   <div className="fw-title">
                     <h4 className="title">Address</h4>
                     <p>
-                    3731 Elmwood street <br/>Burnaby V5g 1r8
+                    3731 Elmwood street <br/>Burnaby , V5G 1R8
                     </p>
                   </div>
                   <div className="fw-title">
@@ -118,7 +111,7 @@ const FooterOne = () => {
           <div className="row">
           <div className="col-md-12">
             <div className="footer-widget">
-              <p>&#169;2025 <Link to="/">K P M Plumbing LTD.</Link> All Rights Reserved. </p>
+              <p>&#169;2025 <Link to="/">KPM Plumbing LTD.</Link> All Rights Reserved. </p>
             </div>
           </div>
           </div>

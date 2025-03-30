@@ -19,7 +19,7 @@ const HeaderTop = ({ className }) => {
           <div className="col-lg-6">
             <div className="header-top-right">
               <span>
-                <i className="fas fa-map-marker-alt white"></i> Available for service in Aldergrove, Langley, Abbotsford Mission area
+                <i className="fas fa-map-marker-alt white"></i> Available for service in Metro Vancouver
               </span>
             </div>
           </div>

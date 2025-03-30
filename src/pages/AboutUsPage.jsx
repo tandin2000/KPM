@@ -30,7 +30,6 @@ const AboutUsPage = () => {
       
         <VideoAreaTwo />
        
-        {/* <BrandArea className={"inner-brand-area pb-70"} /> */}
         <br/>
       </Layout>
     </>

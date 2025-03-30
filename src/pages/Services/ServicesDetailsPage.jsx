@@ -18,7 +18,7 @@ const ServicesDetailsPage = () => {
           subtitle={"Single Services"}
         />
         <ServicesDetailsArea />
-        <BrandArea className={"inner-brand-area pb-70"} />
+        {/* <BrandArea className={"inner-brand-area pb-70"} /> */}
       </Layout>
     </>
   );

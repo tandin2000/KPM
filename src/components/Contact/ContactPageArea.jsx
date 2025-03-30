@@ -14,12 +14,12 @@ const ContactPageArea = () => {
                 </div>
                 <div className="content">
 
-                <b> Main Contact / After hours:</b> <a href="tel:+16477734356"> 
+                <b> Office Number: </b> <a href="tel:+1"> 
                 7787077946
                 </a>
                 
                
-                <a href="mailto:vasi@anubuilsingservices.com " style={{fontSize:'15'}}>
+                <a href="mailto: " style={{fontSize:'15'}}>
                 kpmplumbingandheating@gmail.com
                 </a>
                  
@@ -54,7 +54,7 @@ const ContactPageArea = () => {
                 </div>
                 <div className="content">
                  
-                3731 Elmwood street Burnaby V5g 1r8
+                3731 Elmwood street Burnaby , V5G 1R8
                 <br/>
                 <div className="social-links">
                 <b>Follow Us</b>

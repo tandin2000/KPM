@@ -14,7 +14,6 @@ const EstimateForm = () => {
       Contact Person's Name: ${e.target.contact_name.value}\n
       Selected Service: ${e.target.service.value}\n
       Type of Client: ${e.target.client.value}\n
-      Company Name: ${e.target.company_name.value}\n
       Contact Person's Role: ${e.target.contact_role.value}\n
       Phone Number: ${e.target.phone.value}\n
       Email: ${e.target.email.value}\n
@@ -58,12 +57,17 @@ const EstimateForm = () => {
           <div className="form-grp select-grp">
             <select id="service" name="service" required>
               <option value="">Select Services*</option>
-              <option>Retail Store Cleaning</option>
-              <option>Carpet Steam Wash Cleaning</option>
-              <option>Office Cleaning</option>
-              <option>Disinfecting Cleaning</option>
-              <option>Tile and Grout Cleaning</option>
-              <option>Construction Cleaning</option>
+              <option>Furnace Repair & Installation</option>
+              <option>Swift Boiler Repair & Installation</option>
+              <option>Repiping Services</option>
+              <option>Hot Water Heater Replacement & Repair</option>
+              <option>Water Main Replacement & Repair</option>
+              <option>Fast & Secure Installations</option>
+              <option>Drain Tile System Cleaning, Installation & Repair</option>
+              <option>Sewer & Drainage Maintenance</option>
+              <option>Drainage System Repair & Installation Service</option>
+              <option>All Types of Plumbing Fixture Installation</option>
+              <option>Camera Inspection</option>
             </select>
           </div>
         </div>
@@ -74,11 +78,6 @@ const EstimateForm = () => {
               <option>New</option>
               <option>Existing</option>
             </select>
-          </div>
-        </div>
-        <div className="col-sm-12">
-          <div className="form-grp">
-            <input type="text" name="company_name" placeholder="Company Name*" required />
           </div>
         </div>
         <div className="col-sm-12">

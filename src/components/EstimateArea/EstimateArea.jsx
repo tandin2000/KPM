@@ -21,7 +21,7 @@ const EstimateArea = () => {
                         <h2 className="title">Office</h2>
                         <p>3731 Elmwood street
                          ,<br/>
-                         Burnaby V5g 1r8</p>
+                         Burnaby , V5G 1R8</p>
                         <p>Phone  7787077946</p>
                         <br/>
                       </div>

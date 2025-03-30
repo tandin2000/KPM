@@ -66,7 +66,7 @@ const ServicesDetailsPage = () => {
         </div>
       </div>
     </section>
-        <BrandArea className={"inner-brand-area pb-70"} />
+        {/* <BrandArea className={"inner-brand-area pb-70"} /> */}
         <br/>
       </Layout>
     </>

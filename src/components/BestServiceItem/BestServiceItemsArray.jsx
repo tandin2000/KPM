@@ -78,7 +78,7 @@ export const BestServiceItemsArray = [
   {
     title: "Fast & Secure Installations",
     subtitle:
-      "K P M Plumbing, Heating & Cooling offers custom plumbing installation services for optimal functionality.",
+      "KPM Plumbing, Heating & Cooling offers custom plumbing installation services for optimal functionality.",
     url: "/fast",
     src: "/img/images/fast.jpg",
     src2: "/img/images/fast.jpg",

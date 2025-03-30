@@ -41,7 +41,7 @@ const ServicesDetailsPage = () => {
               <div className="services-details-content">
                 <br/>
                 <div class="elementor-widget-container">
-                <p>K P M Plumbing, Heating &amp; Cooling offers custom plumbing installation services for optimal functionality. We follow all sanitation and safety protocols during the plumbing installation, repair, and maintenance of fixtures, water heaters, showers, sinks, and more. This safeguards your commercial or residential property from costly repair.</p><p>Our experts install:</p>								</div>
+                <p>KPM Plumbing, Heating &amp; Cooling offers custom plumbing installation services for optimal functionality. We follow all sanitation and safety protocols during the plumbing installation, repair, and maintenance of fixtures, water heaters, showers, sinks, and more. This safeguards your commercial or residential property from costly repair.</p><p>Our experts install:</p>								</div>
 
                 <ul class="elementor-icon-list-items" style={{listStyleType:'none'}}>
 							<li class="elementor-icon-list-item">
@@ -100,7 +100,7 @@ const ServicesDetailsPage = () => {
         </div>
       </div>
     </section>
-        <BrandArea className={"inner-brand-area pb-70"} />
+        {/* <BrandArea className={"inner-brand-area pb-70"} /> */}
         <br/>
       </Layout>
     </>

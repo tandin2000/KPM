@@ -28,7 +28,7 @@ const BannerOne = () => {
             <br/>
               <br/>
               <span className="sub-title wow fadeInUp" data-wow-delay=".2s">
-              K P M Plumbing
+              KPM Plumbing
               </span>
 <br/><br/>
               <h1 className="title wow fadeInUp" data-wow-delay=".4s">
@@ -36,7 +36,7 @@ const BannerOne = () => {
               </h1>
 
               <p className="wow fadeInUp" data-wow-delay=".6s">
-              K P M Plumbing LTD is taking care of plumbing, heating and related problems in the Aldergrove, Langley, Langley Township and Abbotsford Mission areas, Canada with utmost caution at cost-effective prices.
+              KPM Plumbing LTD is taking care of plumbing, heating and related problems in the Aldergrove, Langley, Langley Township and Abbotsford Mission areas, Canada with utmost caution at cost-effective prices.
               </p>
 
               <div className="banner-btn">

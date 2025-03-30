@@ -18,7 +18,7 @@ const ServicesPageTwo = () => {
         topHeaderClassName={"header-top-two"}>
         <BreadcrumbArea1 title={"Our Services"} subtitle={"Our Services"} />
         <ServicesAreaAll />
-        <BrandArea className={"inner-brand-area pb-70"} />
+        {/* <BrandArea className={"inner-brand-area pb-70"} /> */}
         <br/>
       </Layout>
     </>
