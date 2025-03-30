@@ -41,7 +41,40 @@ const ServicesDetailsPage = () => {
               <div className="services-details-content">
                 <br/>
                 <div class="elementor-widget-container">
-                <h2>Swift Boiler Repair &amp; Installation in Burnaby BC:</h2><p>When it comes to ensuring your home’s comfort, a well-functioning boiler is non-negotiable. In Burnaby BC, our premier boiler repair services guarantee a seamless heating experience, putting your worries to rest.</p><p>We understand the importance of a budget-friendly approach without compromising on quality. Trust us to provide expert solutions without breaking the bank.</p><h3>Swift Solutions for Boiler Troubles:</h3><p>Discovering issues with your boiler can be stressful, especially during colder seasons. Our expert technicians in Burnaby BC prioritize swift solutions. From minor adjustments to complex repairs, we handle it all efficiently, ensuring your heating system is up and running without unnecessary delays.</p><h3>24/7 Emergency Support:</h3><p>Boiler emergencies don’t adhere to a 9-to-5 schedule, and neither do we. Our Burnaby BC team offers 24/7 emergency support, ready to tackle unexpected issues whenever they arise. Your comfort is our priority, day or night.</p><h3>Why Choose Our Boiler Repair Services?</h3><ul><li><strong>Proven Track Record:</strong> With a history of successful repairs, we bring a wealth of experience to every service call in Burnaby BC and nearby areas.</li><li><strong>Licensed Technicians:</strong> Our skilled and licensed technicians ensure that every repair meets the highest industry standards, giving you peace of mind.</li><li><strong>Transparent Pricing:</strong> No hidden fees. Our Burnaby BC boiler repair services come with transparent pricing, providing clarity from start to finish.</li></ul><p>&nbsp;</p><p>In Burnaby BC, our boiler repair services stand out for their efficiency, affordability, and reliability. Trust us to keep your home warm and comfortable, no matter the season.</p><div>&nbsp;</div>								</div>
+                  <h2>Expert Boiler Repair & Installation Services</h2>
+                  <p>Keep your home or business comfortable with our professional boiler repair and installation services. Our certified technicians provide fast, reliable solutions for all your heating needs.</p>
+                  
+                  <h3>Why Choose Our Boiler Services?</h3>
+                  <ul>
+                    <li>Certified technicians with years of experience</li>
+                    <li>Same-day emergency repair services</li>
+                    <li>Energy-efficient boiler installations</li>
+                    <li>Comprehensive maintenance programs</li>
+                    <li>Competitive pricing and transparent quotes</li>
+                  </ul>
+
+                  <h3>Our Boiler Services Include:</h3>
+                  <ul>
+                    <li>Emergency boiler repairs</li>
+                    <li>New boiler installation</li>
+                    <li>Regular maintenance and servicing</li>
+                    <li>Energy efficiency upgrades</li>
+                    <li>Safety inspections and certifications</li>
+                  </ul>
+
+                  <p>We work with all major boiler brands and provide expert advice on choosing the right system for your needs. Our team ensures minimal disruption during installation and repair work.</p>
+
+                  <h3>Benefits of Professional Boiler Services:</h3>
+                  <ul>
+                    <li>Improved energy efficiency and lower utility bills</li>
+                    <li>Enhanced safety and reliability</li>
+                    <li>Extended boiler lifespan</li>
+                    <li>Reduced risk of breakdowns</li>
+                    <li>Compliance with safety regulations</li>
+                  </ul>
+
+                  <p>Contact us today for a free consultation or emergency repair service. Our team is available 24/7 to handle any boiler-related emergencies.</p>
+                </div>
              
 
              <br/>

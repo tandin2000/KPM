@@ -28,26 +28,24 @@ const BannerOne = () => {
             <br/>
               <br/>
               <span className="sub-title wow fadeInUp" data-wow-delay=".2s">
-              KPM Plumbing
+                Trusted Plumbing Experts Since 2010
               </span>
-<br/><br/>
+              <br/><br/>
               <h1 className="title wow fadeInUp" data-wow-delay=".4s">
-              Your Go-To Plumbers In Burnaby
+                Professional Plumbing & Heating Services in Metro Vancouver
               </h1>
 
               <p className="wow fadeInUp" data-wow-delay=".6s">
-              KPM Plumbing LTD is taking care of plumbing, heating and related problems in the Aldergrove, Langley, Langley Township and Abbotsford Mission areas, Canada with utmost caution at cost-effective prices.
+                Your trusted partner for expert plumbing and heating solutions in Burnaby, BC. We provide 24/7 emergency services, professional installations, and reliable maintenance. Licensed, insured, and committed to excellence.
               </p>
 
               <div className="banner-btn">
-               
-               
-               <Link
+                <Link
                   to="/services"
                   className="btn wow fadeInLeft"
                   data-wow-delay=".8s"
                 >
-                  Discover MORE
+                  Explore Our Services
                 </Link>
               </div>
             </div>

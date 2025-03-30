@@ -41,9 +41,31 @@ const ServicesDetailsPage = () => {
               <div className="services-details-content">
                 <br/>
                 <div class="elementor-widget-container">
-									<p>We are reminded of the sewer and drainage systems only when problems occur. However, waiting for a problem can cost you heavily in the long run. The repair and energy bills can increase heavily due to this.</p>
-<p>Ringaway team of experts conduct property inspection with electronic equipment to detect drain and sewer issues in the Aldergrove, Langley, Langley Township and Abbotsford Mission areas, Canada. We also use eco-friendly jet cleaning to eliminate water clogging and flooding obstructions.</p>
-<p>Some of the sewer and drainage maintenance services in our arsenal include: </p>								</div>
+                  <h2>Professional Sewer & Drainage Maintenance Services</h2>
+                  <p>Don't wait for sewer and drainage problems to become emergencies. Our expert team provides comprehensive maintenance and repair services to keep your property's drainage system in optimal condition.</p>
+                  
+                  <h3>Why Choose Our Sewer & Drainage Services?</h3>
+                  <ul>
+                    <li>Advanced electronic inspection equipment for accurate problem detection</li>
+                    <li>Eco-friendly jet cleaning technology for efficient blockage removal</li>
+                    <li>Preventive maintenance to avoid costly repairs</li>
+                    <li>24/7 emergency response for urgent situations</li>
+                    <li>Licensed and insured professionals</li>
+                  </ul>
+
+                  <p>Our service area includes Aldergrove, Langley, Langley Township, and Abbotsford Mission areas. We use state-of-the-art equipment and environmentally friendly methods to ensure your drainage system operates efficiently while minimizing environmental impact.</p>
+                  
+                  <h3>Our Comprehensive Services Include:</h3>
+                  <ul>
+                    <li>Regular maintenance and inspection</li>
+                    <li>Blockage removal and cleaning</li>
+                    <li>Drain repair and replacement</li>
+                    <li>Sewer line inspection and repair</li>
+                    <li>Emergency response services</li>
+                  </ul>
+
+                  <p>Contact us today for a professional assessment of your sewer and drainage system. Our team is ready to provide expert solutions tailored to your specific needs.</p>
+                </div>
              
 <ul>
     <li>Leader drain cleaning</li>
