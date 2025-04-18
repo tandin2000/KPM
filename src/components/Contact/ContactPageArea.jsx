@@ -20,7 +20,7 @@ const ContactPageArea = () => {
                 
                
                 <a href="mailto: " style={{fontSize:'15'}}>
-                kpmplumbingandheating@gmail.com
+                info@kpmservicegroup.ca
                 </a>
                  
 
