@@ -80,7 +80,7 @@ Experts are trained and Red Seal-certified to follow Canadian protocols to preve
                   <i className="fas fa-phone-alt"></i>
                 </span>
                       <a href="tel:778 7077 946"> 
-                      778 7077 946
+                      +1 (778) 707-7946
                       </a>
               </div>
             </div>

@@ -10,7 +10,7 @@ const HeaderTop = ({ className }) => {
             <div className="header-top-left">
               <span>
                 <i className="fas fa-fire-alt white"></i> Satisfaction Guaranteed! | <a href="tel: 77 8707 7946"> <i className="ml-10
-                fa fa-phone"></i> 778 7077 946</a>
+                fa fa-phone"></i> +1 (778) 707-7946</a>
                 
 
               </span>
