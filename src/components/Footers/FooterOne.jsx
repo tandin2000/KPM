@@ -79,22 +79,22 @@ const FooterOne = () => {
             
                   <ul className="clearfix list-wrap flexicon">
                     <li target="blank" className="facebook">
-                      <a href="">
+                      <a href="https://www.facebook.com/profile.php?id=61561277386343&mibextid=wwXIfr&mibextid=wwXIfr">
                         <i className="fab fa-facebook-f"></i>
                       </a>
                     </li>
                     <li target="blank" className="instagram">
-                      <a href="">
+                      <a href="https://www.instagram.com/kpmplumbingheating?igsh=cmZqOWp0OXZjNnZu&utm_source=qr">
                         <i className="fab fa-instagram"></i>
                       </a>
                     </li>
-                    <li className="linkedin">
+                    {/* <li className="linkedin">
                       <a target="blank" href="">
                         <i className="fab fa-linkedin-in"></i>
                       </a>
-                    </li>
+                    </li> */}
                     <li className="whatsapp">
-                      <a target="blank" href="">
+                      <a target="blank" href="https://wa.me/+17787077946">
                         <i className="fab fa-whatsapp"></i>
                       </a>
                     </li>
