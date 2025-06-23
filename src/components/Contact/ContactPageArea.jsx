@@ -14,7 +14,7 @@ const ContactPageArea = () => {
                 </div>
                 <div className="content">
 
-                <b> Office Number: </b> <a href="tel:+1"> 
+                <b> Office Number: </b> <a href="tel:+17787077946"> 
                 7787077946
                 </a>
                 
